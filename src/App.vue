@@ -1,6 +1,11 @@
 <template>
   <div id="app">
-    <vue-showdown :markdown="markdown" flavor="github" class="markdown-body"></vue-showdown>
+    <vue-showdown
+      :markdown="markdown"
+      flavor="github"
+      class="markdown-body"
+      :extensions="['showdownHighlight']"
+    ></vue-showdown>
   </div>
 </template>
 
