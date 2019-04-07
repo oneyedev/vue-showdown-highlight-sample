@@ -1,4 +1,4 @@
 module.exports = {
-  ouputDir: 'docs',
-  publicPath: 'vue-showdown-highlight-sample'
+  outputDir: 'docs',
+  publicPath: '/vue-showdown-highlight-sample'
 }
