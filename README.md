@@ -1,29 +1,9 @@
 # vue-showdown-highlight-sample
 
-## Project setup
-```
-npm install
-```
+This is a sample vue-showdown-highlight project. you can see all steps here - [Convert Markdown Text into HTML (vue-showdown-highlight)](https://oneyedev.github.io/#/articles/convert-markdown-text-into-html-1)
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## Preview
+https://oneyedev.github.io/vue-showdown-highlight-sample/
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## License
+This project is released under MIT License. See [LICENSE](https://github.com/oneyedev/vue-showdown-highlight-sample/blob/master/LICENSE) file for details.
