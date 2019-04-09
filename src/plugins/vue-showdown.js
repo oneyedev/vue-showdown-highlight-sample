@@ -18,7 +18,7 @@ const h1LinkExtension = {
         if (x < 1) {
             ++x
             const html = converter.makeHtml(text)
-            return html.replace(/<h1 id="(.+)">(.+)<\/h1>/g, `<h1 id="$1"><a href="#$1" class="anchor" aria-hidden="true"><i style="visibility: visible" class="octicon octicon-link material-icons">link</i></a>$2</h1>`)
+            return html.replace(/<h1 id="(.+)">(.+)<\/h1>/g, `<h1 id="$1"><a href="#$1" class="anchor"><i style="visibility: visible" class="octicon octicon-link material-icons">link</i></a>$2</h1>`)
         }
         return text;
     }
@@ -28,7 +28,7 @@ const h1LinkExtension = {
 // const h1LinkExtension = {
 //     type: 'output', // add feature to existing syntax
 //     regex: /<h1 id="(.+)">(.+)<\/h1>/g,
-//     replace: '<h1 id="$1"><a href="#$1" class="anchor" aria-hidden="true"><i style="visibility: visible" class="octicon octicon-link material-icons">link</i></a>$2</h1>'
+//     replace: '<h1 id="$1"><a href="#$1" class="anchor"><i style="visibility: visible" class="octicon octicon-link material-icons">link</i></a>$2</h1>'
 // }
 
 showdown.extension('showdownHighlight', showdownHighlight)
