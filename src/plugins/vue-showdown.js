@@ -24,6 +24,13 @@ const h1LinkExtension = {
     }
 }
 
+// This code also works!
+// const h1LinkExtension = {
+//     type: 'output', // add feature to existing syntax
+//     regex: /<h1 id="(.+)">(.+)<\/h1>/g,
+//     replace: '<h1 id="$1"><a href="#$1" class="anchor" aria-hidden="true"><i style="visibility: visible" class="octicon octicon-link material-icons">link</i></a>$2</h1>'
+// }
+
 showdown.extension('showdownHighlight', showdownHighlight)
 showdown.extension('colorTextExtension', colorTextExtension)
 showdown.extension('h1LinkExtension', h1LinkExtension)
