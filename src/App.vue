@@ -14,7 +14,7 @@ const MARKDOWN_SAMPLE = `
 # Welcome to vue-showdown-hightlight sample page!
 This page source is markdown. Belows are made by \`vue-showdown\`, \`showdown-hightlight\` module in \`vue-framework\`.
 
-You can see h1 tag link like github. All steps are here - [Convert Markdown Text into HTML (vue-showdown-highlight)](https://oneyedev.github.io/#/articles/convert-markdown-text-into-html-1)
+You can see h1 tag link like github. All steps are here - [Convert Markdown Text into HTML (vue-showdown-highlight)](https://oneyedev.github.io/article?id=convert-markdown-text-into-html-1)
 
 # This is a h1
 ## This is a h2 
